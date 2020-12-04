@@ -16,5 +16,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func buttonRussia(_ sender: Any) {
+        
+    }
 }
 
