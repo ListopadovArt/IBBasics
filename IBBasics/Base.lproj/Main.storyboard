@@ -42,6 +42,15 @@
                                     <action selector="referenceButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="meV-dB-9A5"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🇷🇺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCj-66-FGd">
+                                <rect key="frame" x="314" y="802" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="fqN-ZT-hCN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -50,13 +59,16 @@
                             <constraint firstItem="UuP-EH-z4e" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="U7f-Rq-ojX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vAT-UK-KDg" secondAttribute="bottom" constant="20" id="amQ-vI-PRh"/>
                             <constraint firstItem="vAT-UK-KDg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="qtG-8U-1FC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nCj-66-FGd" secondAttribute="trailing" constant="50" id="r32-T9-8DY"/>
                             <constraint firstItem="UuP-EH-z4e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sZM-tY-jEO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nCj-66-FGd" secondAttribute="bottom" constant="30" id="y3c-XT-vGf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="buttonReferenceO" destination="vAT-UK-KDg" id="ggx-tr-DCA"/>
                         <outlet property="buttonRussiaO" destination="G3y-y5-z6k" id="vLM-Wj-die"/>
+                        <outlet property="labelCountry" destination="nCj-66-FGd" id="pXJ-NW-a3R"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

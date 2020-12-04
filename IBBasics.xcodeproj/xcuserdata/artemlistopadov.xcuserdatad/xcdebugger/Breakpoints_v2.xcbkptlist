@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "848EF7F2-42EC-407C-A16B-F1357B621DC6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B48D3A2E-67B9-49B8-B8DB-F103EA9F2F31"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IBBasics/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "B48D3A2E-67B9-49B8-B8DB-F103EA9F2F31 - 8120c98c431d2313"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IBBasics.AppDelegate.__allocating_init() -&gt; IBBasics.AppDelegate"
+                  moduleName = "IBBasics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemlistopadov/myProject/IBBasics/IBBasics/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "B48D3A2E-67B9-49B8-B8DB-F103EA9F2F31 - 52655cc8fd70846c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IBBasics.AppDelegate.init() -&gt; IBBasics.AppDelegate"
+                  moduleName = "IBBasics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemlistopadov/myProject/IBBasics/IBBasics/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  uuid = "B48D3A2E-67B9-49B8-B8DB-F103EA9F2F31 - 528700b88e4756ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IBBasics.AppDelegate.__deallocating_deinit"
+                  moduleName = "IBBasics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemlistopadov/myProject/IBBasics/IBBasics/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "B48D3A2E-67B9-49B8-B8DB-F103EA9F2F31 - b41246ab5c72eaf0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "IBBasics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemlistopadov/myProject/IBBasics/IBBasics/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
