@@ -30,10 +30,15 @@ class ViewController: UIViewController {
         buttonRussiaO.setTitleColor(.green, for: .normal)
         buttonReferenceO.setTitleColor(.red, for: .normal)
         
-//        let label = UILabel(frame: CGRect(x: 50, y: 340, width: 200, height: 44))
-//           view.addSubview(label)
-// Программный способ добавления кнопки
-    
+        // Программный способ добавления Lable
+        
+        let mainLabel = UILabel(frame: CGRect(x: 280, y: 340, width: 180, height: 44))
+        mainLabel.text = "This app rocks!"
+        mainLabel.textColor = UIColor.red
+        view.addSubview(mainLabel)
+        
+        
+        
         // Do any additional setup after loading the view.
     }
     
